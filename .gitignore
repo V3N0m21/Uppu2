@@ -21,6 +21,7 @@
 *.zip
 
 public/upload/
+vendor/
  
 # Logs and databases #
 ######################
