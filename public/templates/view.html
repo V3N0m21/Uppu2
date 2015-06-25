@@ -1,0 +1,7 @@
+{% extends 'layout.html' %}
+{% block content %}
+<p> {{ file.name }} </p>
+<p><a href="/download/{{ file.id }}">{{ file.name }}</a> uploaded at {{ file.uploaded }}</p>
+<p>Размер файла {{ file.size }} байт</p>
+
+	{% endblock %}

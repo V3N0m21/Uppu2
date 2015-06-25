@@ -1,0 +1,13 @@
+{
+    "require": {
+        "slim/slim": "^2.6",
+        "twig/twig": "^1.18",
+        "slim/views": "^0.1.3",
+        "j4mie/paris": "^1.5"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"Classes\\": "app/Classes/Model"
+    	}
+    }
+}

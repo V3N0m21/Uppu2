@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+{% block content %}
+
+	{% for file in files %}
+
+<p><a href="/view/{{ file.id }}">{{ file.name }}</a> uploaded at {{ file.uploaded }}</p>
+<p>{{ file.comment }}</p>
+<p>>Размер файла {{ file.size }} байт</p>
+{% else %}
+<p>There are currently no files.</p>
+ 
+    {% endfor %}
+{% endblock %}
